@@ -203,6 +203,13 @@ Siga a ordem abaixo.
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrDFe\\ | ACBr_ACBrDFeComum.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrDFe\\ | DCLACBr_ACBrDFeComum.dpk | Sim | Sim |
+| 3   | \\Pacotes\\Delphi\\ACBrDFe\\ | ACBrDFeReportRL.dpk | Sim | Não |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrDFe\\ACBrNFe\\ | ACBr_NFe.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrDFe\\ACBrNFe\\ | DCLACBr_NFe.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrDFe\\ACBrNFe\\DANFE\\NFe\\Fortes | ACBr_NFeDanfeRL.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrDFe\\ACBrNFe\\DANFE\\NFe\\Fortes | DCLACBr_NFeDanfeRL.dpk | Sim | Sim |
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrBaaS\\ | ACBr_ACBrBaaS.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrBaaS\\ | DCLACBr_ACBrBaaS.dpk | Sim | Sim |
