@@ -37,52 +37,80 @@ Na janela acima, vamos definir a localização dos fontes do projeto ACBr. Cliqu
 Será aberta uma janela para você informar o local que deseja adicionar para essa lista de path. Navegue até o local onde você fez o download do projeto ACBr e 
 adicione cada um dos diretórios abaixo:
 
-| Local | Diretório |
-| --- | --- |
-| \\Fontes\\ACBrAndroid | ACBrAndroid |
-| \\Fontes\\ACBrCapicom | ACBrCapicom |
-| \\Fontes\\ACBrComum | ACBrComum |
-| \\Fontes\\ACBrDiversos | ACBrDiversos |
-| \\Fontes\\ACBrDiversos\\ACBrFalaWaves | ACBrDiversos\\ACBrFalaWaves |
-| \\Fontes\\ACBrIntegrador | ACBrIntegrador |
-| \\Fontes\\ACBrIntegrador\\pcnVFPe | ACBrIntegrador\\pcnVFPe |
-| \\Fontes\\ACBrOpenSSL | ACBrOpenSSL |
-| \\Fontes\\ACBrSerial | ACBrSerial |
-| \\Fontes\\ACBrTCP | ACBrTCP |
-| \\Fontes\\ACBrTCP\\ConsultaCNPJ | ACBrTCP\\ConsultaCNPJ |
-| \\Fontes\\ACBrTXT | ACBrTXT |
-| \\Fontes\\ACBrTXT\\ACBrADRCST | ACBrADRCST |
-| \\Fontes\\ACBrTXT\\ACBrConvenio115 | ACBrConvenio115 |
-| \\Fontes\\ACBrTXT\\ACBrDeSTDA | ACBrDeSTDA |
-| \\Fontes\\ACBrTXT\\ACBrEDI | ACBrEDI |
-| \\Fontes\\ACBrTXT\\ACBrLCDPR | ACBrLCDPR |
-| \\Fontes\\ACBrTXT\\ACBrLFD | ACBrLFD |
-| \\Fontes\\ACBrTXT\\ACBrOFX | ACBrOFX |
-| \\Fontes\\ACBrTXT\\ACBrPAF | ACBrPAF |
-| \\Fontes\\ACBrTXT\\ACBrPonto | ACBrPonto |
-| \\Fontes\\ACBrTXT\\ACBrSEF2 | ACBrSEF2 |
-| \\Fontes\\ACBrTXT\\ACBrSintegra | ACBrSintegra
-| \\Fontes\\ACBrTXT\\ACBrSPED | ACBrSPED |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDContabil | ACBrSPEDContabil |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDECF | ACBrSPEDECF |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscal | ACBrSPEDFiscal |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscalImportar | ACBrSPEDFiscalImportar |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofins | ACBrSPEDPisCofins |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofinsImportar | ACBrSPEDPisCofinsImportar |
-| \\Fontes\\ACBrTXT\\SintegraSultan | SintegraSultan |
-| \\Fontes\\ACBrTEFD | ACBrTEFD |
-| \\Fontes\\synapse | synapse |
-| \\Fontes\\PCNComum | PCNComum |
-| \\Fontes\\Terceiros\\FastStringReplace | Terceiros\\FastStringReplace |
-| \\Fontes\\Terceiros\\AJBarCode | Terceiros\\AJBarCode |
-| \\Fontes\\Terceiros\\CodeGear | Terceiros\\CodeGear |
-| \\Fontes\\Terceiros\\DelphiZXingQRCode | Terceiros\\DelphiZXingQRCode |
-| \\Fontes\\Terceiros\\json4delphi | Terceiros\\json4delphi |
-| Fontes\\Terceiros\\json4delphi\\src | Terceiros\\json4delphi\\src |
-| \\Fontes\\Terceiros\\JsonDataObjects | Terceiros\\JsonDataObjects |
-| \\Fontes\\Terceiros\\JsonDataObjects\\Source | Terceiros\\JsonDataObjects\\Source |
-| \\Fontes\\Terceiros\\synalist | Terceiros\\synalist |
-
+| Local |
+| --- |
+| \\Fontes\\ACBrAndroid |
+| \\Fontes\\ACBrBaaS |
+| \\Fontes\\ACBrBoleto |
+| \\Fontes\\ACBrBoleto\FC\Fortes |
+| \\Fontes\\ACBrBoleto\WS |
+| \\Fontes\\ACBrCapicom |
+| \\Fontes\\ACBrComum |
+| \\Fontes\\ACBrDiversos |
+| \\Fontes\\ACBrDiversos\ACBrFalaWaves |
+| \\Fontes\\ACBrDFe |
+| \\Fontes\\ACBrDFe\ACBrNFe |
+| \\Fontes\\ACBrDFe\ACBrNFe\Base |
+| \\Fontes\\ACBrDFe\ACBrNFe\Base\Servicos |
+| \\Fontes\\ACBrDFe\ACBrNFe\DANFe |
+| \\Fontes\\ACBrDFe\ACBrNFe\DANFe\NFe\Fortes |
+| \\Fontes\\ACBrDFe\ACBrNFe\ACBrECFVirtualNFCe |
+| \\Fontes\\ACBrDFe\ACBrNFe\PCNNFe |
+| \\Fontes\\ACBrIntegrador |
+| \\Fontes\\ACBrIntegrador\pcnVFPe |
+| \\Fontes\\ACBrOpenSSL |
+| \\Fontes\\ACBrOpenDelivery |
+| \\Fontes\\ACBrPagFor |
+| \\Fontes\\ACBrPagFor\Bancos |
+| \\Fontes\\ACBrPagFor\Base |
+| \\Fontes\\ACBrPagFor\Base\Provider |
+| \\Fontes\\ACBrPagFor\Modelos |
+| \\Fontes\\ACBrPicPay |
+| \\Fontes\\ACBrPIXCD |
+| \\Fontes\\ACBrSerial |
+| \\Fontes\\ACBrSAT |
+| \\Fontes\\ACBrSAT\ACBrECFVirtualSAT |
+| \\Fontes\\ACBrSAT\Extrato |
+| \\Fontes\\ACBrSAT\Extrato\EscPos |
+| \\Fontes\\ACBrSAT\Extrato\Fortes |
+| \\Fontes\\ACBrSAT\PCNSAT |
+| \\Fontes\\ACBrTCP |
+| \\Fontes\\ACBrTCP\ACBrConsultaCNPJ |
+| \\Fontes\\ACBrTXT |
+| \\Fontes\\ACBrTXT\ACBrADRCST |
+| \\Fontes\\ACBrTXT\ACBrConvenio115 |
+| \\Fontes\\ACBrTXT\ACBrDeSTDA |
+| \\Fontes\\ACBrTXT\ACBrEDI |
+| \\Fontes\\ACBrTXT\ACBrLCDPR |
+| \\Fontes\\ACBrTXT\ACBrLFD |
+| \\Fontes\\ACBrTXT\ACBrOFX |
+| \\Fontes\\ACBrTXT\ACBrPAF |
+| \\Fontes\\ACBrTXT\ACBrPonto |
+| \\Fontes\\ACBrTXT\ACBrSEF2 |
+| \\Fontes\\ACBrTXT\ACBrSintegra |
+| \\Fontes\\ACBrTXT\ACBrSPED |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDContabil |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDECF |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDFiscal |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDFiscalImportar |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDPisCofins |
+| \\Fontes\\ACBrTXT\ACBrSPED\ACBrSPEDPisCofinsImportar |
+| \\Fontes\\ACBrTXT\SintegraSultan |
+| \\Fontes\\ACBrTEFD |
+| \\Fontes\\PCNComum |
+| \\Fontes\\Terceiros\FastStringReplace |
+| \\Fontes\\Terceiros\AJBarcode |
+| \\Fontes\\Terceiros\CodeGear |
+| \\Fontes\\Terceiros\DelphiZXingQRCode |
+| \\Fontes\\Terceiros\GZIPUtils |
+| \\Fontes\\Terceiros\json4delphi |
+| \\Fontes\\Terceiros\json4delphi\src |
+| \\Fontes\\Terceiros\JsonDataObjects |
+| \\Fontes\\Terceiros\JsonDataObjects\Source |
+| \\Fontes\\Terceiros\LibXmlSec |
+| \\Fontes\\Terceiros\synalist |
+| \\Fontes\\Terceiros\TGif |
+| \\Fontes\\Terceiros\ZLibExGz |
 ## Compilando e instalando os pacotes
 
 Agora que temos os paths ajustados, vamos começar a compilar os pacotes. 
