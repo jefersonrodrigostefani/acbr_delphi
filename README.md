@@ -63,3 +63,67 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\Terceiros\\JsonDataObjects | Terceiros\\JsonDataObjects |
 | \\Fontes\\Terceiros\\JsonDataObjects\\Source | Terceiros\\JsonDataObjects\\Source |
 | \\Fontes\\Terceiros\\synalist | Terceiros\\synalist |
+
+### Compilando e instalando os pacotes
+
+Agora que temos os paths ajustados, vamos começar a compilar os pacotes. 
+
+Navegue até a opção: File > Open Project
+
+<img src="prints/print005.png">
+
+Navegue até o diretório onde você fez o download dos fontes do projeto ACBr e navegue até o diretório: **\Pacotes\Delphi.** 
+Vamos iniciar compilando o pacote **ACBr_synapse.dpk** que fica no diretório: **\Pacotes\Delphi\synapse**.
+
+<img src="prints/print006.png">
+
+Sempre que for compilar um pacote, se atente ao diretório **Requires**. Observe que para o caso do **ACBr_synapse**, 
+ele precisa apenas do arquivo rtl.dcp que já é parte integrante do Delphi.
+
+Clique com o botão direito do mouse sobre o pacote **ACBr_synapse.bpl** e navegue até a opção Options.
+
+Na janela que abrir, navegue até a opção Building > Description. Observe que o pacote ACBr_synapse se trata de um pacote **Runtime only**. 
+Isso significa que não precisamos instalá-lo, apenas compilá-lo para que ele gere o arquivo **ACBr_synapse.bpl** que será utilizado por outros pacotes do projeto.
+
+<img src="prints/print007.png">
+
+Fecha a janela anterior, clique novamente com o botão direito sobre o arquivo **ACBr_synapse.bpl** e clique na opção Compile.
+
+<img src="prints/print008.png">
+
+Será aberta a janela com o resultado da compilação.
+
+<img src="prints/print009.png">
+
+Como não precisamos instalá-lo, basta clicar no botão Ok para fechar a janela de retorno da compilação. Agora, navegue até a opção: File > Close All.
+
+<img src="prints/print010.png">
+
+Será apresentada uma janela de confirmação questionando se deseja salvar as alterações. Basta clicar em No.
+
+<img src="prints/print011.png">
+
+Iremos repetir toda essa etapa para todos os demais pacotes que iremos instalar.
+
+Siga a ordem abaixo.
+
+| Sequência | Local | Pacote | Compilar | Instalar |
+| --- | --- | --- | --- | --- |
+| 1   | \\Pacotes\\Delphi\\ACBrComum\\ | ACBr_Comum.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrComum\\ | DCLACBr_Comum.dpk | Sim | Não |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrOpenSSL\\ | ACBr_OpenSSL.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrOpenSSL\\ | DCLACBr_OpenSSL.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrDiversos\\ | ACBr_Diversos.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrDiversos\\ | DCLACBr_Diversos.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\PCNComum | ACBr_PCNComum.dpk | Sim | Não |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrIntegrador\\ | ACBr_Integrador.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrIntegrador\\ | DCLACBr_Integrador.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrSerial\\ | ACBr_Serial.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrSerial\\ | DCLACBr_Serial.dpk | Sim | Sim |
+|     |     |     |     |     |
+
