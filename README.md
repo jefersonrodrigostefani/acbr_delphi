@@ -14,6 +14,11 @@ No momento que escrevo esse documento, a última revisão dos fontes foi essa: *
 Para fins didáticos, estou realizando a instalação na versão Community Edition do Delphi 12 (Codinome Athenas). 
 Mas você pode reproduzir os mesmos passos em outras versões, pois o princípio da instalação manual será a mesma.
 
-## Primeira etapa: Ajustando os paths
-A primeira etapa consiste em ajustar o path de onde o Delphi irá buscar pelos arquivos no momento da instalação. Para isso, faça o seguinte:
-Com o Delphi aberto, navegue até a opção: Tools > Options.
+## Ajustando os paths
+A primeira etapa consiste em ajustar o path de onde o Delphi irá buscar pelos arquivos no momento da instalação. 
+Navegue até a opção: Tools > Options. Será aberta a janela de opções.
+Navegue até a opção: Language > Delphi > Library.
+
+Após realizar o passo anterior, ao lado direito será exibida algumas informações. 
+Vou manter a plataforma de 32bit, mas você pode realizar a instalação em 64bit também se assim preferir. 
+Clique no botão em frente ao campo Library path. Será aberta a janela com os paths que o Delphi utiliza.
