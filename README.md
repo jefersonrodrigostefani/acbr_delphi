@@ -72,7 +72,7 @@ Navegue até a opção: File > Open Project
 
 <img src="prints/print005.png">
 
-Navegue até o diretório onde você fez o download dos fontes do projeto ACBr e navegue até o diretório: **\Pacotes\Delphi.** 
+Navegue até o diretório onde você fez o download dos fontes do projeto ACBr.
 Vamos iniciar compilando o pacote **ACBr_synapse.dpk** que fica no diretório: **\Pacotes\Delphi\synapse**.
 
 <img src="prints/print006.png">
