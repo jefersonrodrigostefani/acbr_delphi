@@ -127,3 +127,41 @@ Siga a ordem abaixo.
 | 2   | \\Pacotes\\Delphi\\ACBrSerial\\ | DCLACBr_Serial.dpk | Sim | Sim |
 |     |     |     |     |     |
 
+## Ponto de Atenção
+
+Ao compilar o pacote DCLACBr_Serial.dpk você pode se deparar com esse erro:
+
+<img src="prints/print012.png">
+
+Devido as versões mais recentes do Delphi adotarem a nomenclatura de namespaces, alguns itens não fazem referência a ela, ocasionando o erro acima. Para resolvê-lo, você precisa fazer o seguinte:
+
+Clique com o botão direito sobre o **DCLACBr_Serial.bpl** e navegue até a opção Options.
+
+Na tela que abrir, navegue até Building  > Delphi Compiler. Clique no botão que fica em frente ao campo **Unit scope names**.
+
+<img src="prints/print013.png">
+
+Na janela que abrir, digite **VCL** no campo e clique no botão **Add**. Em seguida, clique no botão **Ok** e na outra janela, clique no botão **Save**.
+
+<img src="prints/print014.png">
+
+Agora, basta recompilar o pacote **ACBr_Serial** e perceba que o erro não vai aparecer.
+
+Esse mesmo procedimento deverá ser realizada para outros pacotes que apresentem esse mesmo erro no momento da compilação.
+
+Retomando a sequência dos pacotes
+
+| Sequência | Local | Pacote | Compilar | Instalar |
+| --- | --- | --- | --- | --- |
+| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_TCP.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_TCP.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_MTER.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_MTER.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrAndroid\\ | ACBr_Android.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrAndroid\\ | DCLACBr_Android.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTEFD\\ | ACBr_TEFD.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTEFD\\ | DCLACBr_TEFD.dpk | Sim | Sim |
+|     |     |     |     |     |
