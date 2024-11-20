@@ -51,6 +51,25 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\ACBrTCP | ACBrTCP |
 | \\Fontes\\ACBrTCP\\ConsultaCNPJ | ACBrTCP\\ConsultaCNPJ |
 | \\Fontes\\ACBrTXT | ACBrTXT |
+| \\Fontes\\ACBrTXT\\ACBrADRCST |
+| \\Fontes\\ACBrTXT\\ACBrConvenio115 |
+| \\Fontes\\ACBrTXT\\ACBrDeSTDA |
+| \\Fontes\\ACBrTXT\\ACBrEDI |
+| \\Fontes\\ACBrTXT\\ACBrLCDPR |
+| \\Fontes\\ACBrTXT\\ACBrLFD |
+| \\Fontes\\ACBrTXT\\ACBrOFX |
+| \\Fontes\\ACBrTXT\\ACBrPAF |
+| \\Fontes\\ACBrTXT\\ACBrPonto |
+| \\Fontes\\ACBrTXT\\ACBrSEF2 |
+| \\Fontes\\ACBrTXT\\ACBrSintegra |
+| \\Fontes\\ACBrTXT\\ACBrSPED |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDContabil |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDECF |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscal |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscalImportar |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofins |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofinsImportar |
+| \\Fontes\\ACBrTXT\\SintegraSultan |
 | \\Fontes\\ACBrTEFD | ACBrTEFD |
 | \\Fontes\\synapse | synapse |
 | \\Fontes\\PCNComum | PCNComum |
@@ -64,7 +83,7 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\Terceiros\\JsonDataObjects\\Source | Terceiros\\JsonDataObjects\\Source |
 | \\Fontes\\Terceiros\\synalist | Terceiros\\synalist |
 
-### Compilando e instalando os pacotes
+## Compilando e instalando os pacotes
 
 Agora que temos os paths ajustados, vamos começar a compilar os pacotes. 
 
@@ -110,7 +129,7 @@ Siga a ordem abaixo.
 | Sequência | Local | Pacote | Compilar | Instalar |
 | --- | --- | --- | --- | --- |
 | 1   | \\Pacotes\\Delphi\\ACBrComum\\ | ACBr_Comum.dpk | Sim | Não |
-| 2   | \\Pacotes\\Delphi\\ACBrComum\\ | DCLACBr_Comum.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrComum\\ | DCLACBr_Comum.dpk | Sim | Sim |
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrOpenSSL\\ | ACBr_OpenSSL.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrOpenSSL\\ | DCLACBr_OpenSSL.dpk | Sim | Sim |
@@ -149,7 +168,7 @@ Agora, basta recompilar o pacote **ACBr_Serial** e perceba que o erro não vai a
 
 Esse mesmo procedimento deverá ser realizada para outros pacotes que apresentem esse mesmo erro no momento da compilação.
 
-Retomando a sequência dos pacotes
+##Retomando a sequência dos pacotes
 
 | Sequência | Local | Pacote | Compilar | Instalar |
 | --- | --- | --- | --- | --- |
