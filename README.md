@@ -51,25 +51,25 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\ACBrTCP | ACBrTCP |
 | \\Fontes\\ACBrTCP\\ConsultaCNPJ | ACBrTCP\\ConsultaCNPJ |
 | \\Fontes\\ACBrTXT | ACBrTXT |
-| \\Fontes\\ACBrTXT\\ACBrADRCST |
-| \\Fontes\\ACBrTXT\\ACBrConvenio115 |
-| \\Fontes\\ACBrTXT\\ACBrDeSTDA |
-| \\Fontes\\ACBrTXT\\ACBrEDI |
-| \\Fontes\\ACBrTXT\\ACBrLCDPR |
-| \\Fontes\\ACBrTXT\\ACBrLFD |
-| \\Fontes\\ACBrTXT\\ACBrOFX |
-| \\Fontes\\ACBrTXT\\ACBrPAF |
-| \\Fontes\\ACBrTXT\\ACBrPonto |
-| \\Fontes\\ACBrTXT\\ACBrSEF2 |
-| \\Fontes\\ACBrTXT\\ACBrSintegra |
-| \\Fontes\\ACBrTXT\\ACBrSPED |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDContabil |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDECF |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscal |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscalImportar |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofins |
-| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofinsImportar |
-| \\Fontes\\ACBrTXT\\SintegraSultan |
+| \\Fontes\\ACBrTXT\\ACBrADRCST | ACBrADRCST |
+| \\Fontes\\ACBrTXT\\ACBrConvenio115 | ACBrConvenio115 |
+| \\Fontes\\ACBrTXT\\ACBrDeSTDA | ACBrDeSTDA |
+| \\Fontes\\ACBrTXT\\ACBrEDI | ACBrEDI |
+| \\Fontes\\ACBrTXT\\ACBrLCDPR | ACBrLCDPR |
+| \\Fontes\\ACBrTXT\\ACBrLFD | ACBrLFD |
+| \\Fontes\\ACBrTXT\\ACBrOFX | ACBrOFX |
+| \\Fontes\\ACBrTXT\\ACBrPAF | ACBrPAF |
+| \\Fontes\\ACBrTXT\\ACBrPonto | ACBrPonto |
+| \\Fontes\\ACBrTXT\\ACBrSEF2 | ACBrSEF2 |
+| \\Fontes\\ACBrTXT\\ACBrSintegra | ACBrSintegra
+| \\Fontes\\ACBrTXT\\ACBrSPED | ACBrSPED |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDContabil | ACBrSPEDContabil |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDECF | ACBrSPEDECF |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscal | ACBrSPEDFiscal |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDFiscalImportar | ACBrSPEDFiscalImportar |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofins | ACBrSPEDPisCofins |
+| \\Fontes\\ACBrTXT\\ACBrSPED\ACBrSPEDPisCofinsImportar | ACBrSPEDPisCofinsImportar |
+| \\Fontes\\ACBrTXT\\SintegraSultan | SintegraSultan |
 | \\Fontes\\ACBrTEFD | ACBrTEFD |
 | \\Fontes\\synapse | synapse |
 | \\Fontes\\PCNComum | PCNComum |
