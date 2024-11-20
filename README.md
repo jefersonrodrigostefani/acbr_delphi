@@ -145,6 +145,44 @@ Siga a ordem abaixo.
 | 1   | \\Pacotes\\Delphi\\ACBrSerial\\ | ACBr_Serial.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrSerial\\ | DCLACBr_Serial.dpk | Sim | Sim |
 |     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_TCP.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_TCP.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_MTER.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_MTER.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrAndroid\\ | ACBr_Android.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrAndroid\\ | DCLACBr_Android.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTEFD\\ | ACBr_TEFD.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTEFD\\ | DCLACBr_TEFD.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ | ACBr_TXTComum.dpk | Sim | Não |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrADRCST\\ | ACBr_ADRCST.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrADRCST\\ | DCLACBr_ADRCST.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrConvenio115\\ | ACBr_Convenio115.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrConvenio115\\ | DCLACBr_Convenio115.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrDeSTDA\\ | ACBr_DeSTDA.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrDeSTDA\\ | DCLACBr_DeSTDA.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrEDI\\ | ACBr_EDI.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrEDI\\ | DCLACBr_EDI.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrLCDPR\\ | ACBr_LCDPR.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrLCDPR\\ | DCLACBr_LCDPR.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrLFD\\ | ACBr_LFD.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrLFD\\ | DCLACBr_LFD.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrOFX\\ | ACBr_OFX.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrOFX\\ | DCLACBr_OFX.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPAF\\ | ACBr_PAF.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPAF\\ | DCLACBr_PAF.dpk | Sim | Sim |
+
 
 ## Ponto de Atenção
 
@@ -167,20 +205,3 @@ Na janela que abrir, digite **VCL** no campo e clique no botão **Add**. Em segu
 Agora, basta recompilar o pacote **ACBr_Serial** e perceba que o erro não vai aparecer.
 
 Esse mesmo procedimento deverá ser realizada para outros pacotes que apresentem esse mesmo erro no momento da compilação.
-
-##Retomando a sequência dos pacotes
-
-| Sequência | Local | Pacote | Compilar | Instalar |
-| --- | --- | --- | --- | --- |
-| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_TCP.dpk | Sim | Não |
-| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_TCP.dpk | Sim | Sim |
-|     |     |     |     |     |
-| 1   | \\Pacotes\\Delphi\\ACBrTCP\\ | ACBr_MTER.dpk | Sim | Não |
-| 2   | \\Pacotes\\Delphi\\ACBrTCP\\ | DCLACBr_MTER.dpk | Sim | Sim |
-|     |     |     |     |     |
-| 1   | \\Pacotes\\Delphi\\ACBrAndroid\\ | ACBr_Android.dpk | Sim | Não |
-| 2   | \\Pacotes\\Delphi\\ACBrAndroid\\ | DCLACBr_Android.dpk | Sim | Sim |
-|     |     |     |     |     |
-| 1   | \\Pacotes\\Delphi\\ACBrTEFD\\ | ACBr_TEFD.dpk | Sim | Não |
-| 2   | \\Pacotes\\Delphi\\ACBrTEFD\\ | DCLACBr_TEFD.dpk | Sim | Sim |
-|     |     |     |     |     |
