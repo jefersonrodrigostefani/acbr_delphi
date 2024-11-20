@@ -182,6 +182,36 @@ Siga a ordem abaixo.
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPAF\\ | ACBr_PAF.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPAF\\ | DCLACBr_PAF.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPonto\\ | ACBr_Ponto.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrPonto\\ | DCLACBr_Ponto.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSEF2\\ | ACBr_SEF2.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSEF2\\ | DCLACBr_SEF2.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSintegra\\ | ACBr_Sintegra.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSintegra\\ | DCLACBr_Sintegra.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSintegra\\ | ACBr_Sintegra.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSintegra\\ | DCLACBr_Sintegra.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSPED\\ | ACBr_SPED.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSPED\\ | DCLACBr_SPED.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSPED\\Importar\\ | ACBr_SPEDImportar.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrTXT\\ACBrSPED\\Importar\\ | DCLACBr_SPEDImportar.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrDFe\\ | ACBr_ACBrDFeComum.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrDFe\\ | DCLACBr_ACBrDFeComum.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrBaaS\\ | ACBr_ACBrBaaS.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrBaaS\\ | DCLACBr_ACBrBaaS.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrPIXCD\\ | ACBr_ACBrPIXCD.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrPIXCD\\ | DCLACBr_ACBrPIXCD.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrOpenDelivery\\ | ACBr_ACBrOpenDelivery.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrOpenDelivery\\ | DCLACBr_ACBrOpenDelivery.dpk | Sim | Sim |
 
 
 ## Ponto de Atenção
