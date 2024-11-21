@@ -7,7 +7,7 @@ Os fontes do projeto ficam hospedados do sourceforge. Para fazer o download dos 
 https://svn.code.sf.net/p/acbr/code/trunk2
 
 ## Preparando o ambiente
-Após realizar o download dos fontes do projeto, o próximo passo é começar a realizar a instalação dos pacotes base. 
+Após realizar o download dos fontes do projeto, o próximo passo é começar a realizar a instalação dos pacotes. 
 No momento que escrevo esse documento, a última revisão dos fontes foi essa: **36155**
 
 ## Atenção
@@ -52,6 +52,7 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\ACBrDFe\ACBrNFe |
 | \\Fontes\\ACBrDFe\ACBrNFe\Base |
 | \\Fontes\\ACBrDFe\ACBrNFe\Base\Servicos |
+| \\Fontes\\ACBrDFe\ACBrNFe\Comum |
 | \\Fontes\\ACBrDFe\ACBrNFe\DANFe |
 | \\Fontes\\ACBrDFe\ACBrNFe\DANFe\NFe\Fortes |
 | \\Fontes\\ACBrDFe\ACBrNFe\ACBrECFVirtualNFCe |
@@ -111,6 +112,7 @@ adicione cada um dos diretórios abaixo:
 | \\Fontes\\Terceiros\synalist |
 | \\Fontes\\Terceiros\TGif |
 | \\Fontes\\Terceiros\ZLibExGz |
+
 ## Compilando e instalando os pacotes
 
 Agora que temos os paths ajustados, vamos começar a compilar os pacotes. 
@@ -247,7 +249,14 @@ Siga a ordem abaixo.
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrOpenDelivery\\ | ACBr_ACBrOpenDelivery.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrOpenDelivery\\ | DCLACBr_ACBrOpenDelivery.dpk | Sim | Sim |
-
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrBoleto\\ | ACBr_Boleto.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrBoleto\\ | DCLACBr_Boleto.dpk | Sim | Sim |
+| 3   | \\Pacotes\\Delphi\\ACBrBoleto\\FC\\Fortes\\ | ACBr_BoletoRL.dpk | Sim | Não |
+| 4   | \\Pacotes\\Delphi\\ACBrBoleto\\FC\\Fortes\\ | DCLACBr_BoletoRL.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrDebitoAutomatico\\ | ACBr_DebitoAutomatico.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrDebitoAutomatico\\ | DCLACBr_DebitoAutomatico.dpk | Sim | Sim |
 
 ## Ponto de Atenção
 
