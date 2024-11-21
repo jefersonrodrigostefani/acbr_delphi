@@ -14,6 +14,9 @@ No momento que escrevo esse documento, a última revisão dos fontes foi essa: *
 Para fins didáticos, estou realizando a instalação na versão Community Edition do Delphi 12 (Codinome Athenas). 
 Mas você pode reproduzir os mesmos passos em outras versões, pois o princípio da instalação manual será a mesma.
 
+Você precisa ter o fortesreportce instalado antes de prosseguir. 
+Verifique o repositório https://github.com/jefersonrodrigostefani/fortes_report_ce_delphi para se orientar quanto a instalação desse componente.
+
 <img src="prints/print001.png">
 
 ## Ajustando os paths
