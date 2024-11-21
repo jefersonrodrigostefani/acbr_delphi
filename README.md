@@ -257,6 +257,15 @@ Siga a ordem abaixo.
 |     |     |     |     |     |
 | 1   | \\Pacotes\\Delphi\\ACBrDebitoAutomatico\\ | ACBr_DebitoAutomatico.dpk | Sim | Não |
 | 2   | \\Pacotes\\Delphi\\ACBrDebitoAutomatico\\ | DCLACBr_DebitoAutomatico.dpk | Sim | Sim |
+|     |     |     |     |     |
+| 1   | \\Pacotes\\Delphi\\ACBrSAT\ | ACBr_SAT.dpk | Sim | Não |
+| 2   | \\Pacotes\\Delphi\\ACBrSAT\ | DCLACBr_SAT.dpk | Sim | Sim |
+| 3   | \\Pacotes\\Delphi\\ACBrSAT\\ACBrECFVirtualSAT\\ | ACBr_SATECFVirtual.dpk | Sim | Não |
+| 4   | \\Pacotes\\Delphi\\ACBrSAT\\ACBrECFVirtualSAT\\ | DCLACBr_SATECFVirtual.dpk | Sim | Sim |
+| 5   | \\Pacotes\\Delphi\\ACBrSAT\\Extrato\\EscPos\\ | ACBr_SATEExtratoESCPOS.dpk | Sim | Não |
+| 6   | \\Pacotes\\Delphi\\ACBrSAT\\Extrato\\EscPos\\ | DCLACBr_SATEExtratoESCPOS.dpk | Sim | Sim |
+| 7   | \\Pacotes\\Delphi\\ACBrSAT\\Extrato\\Fortes\\ | ACBr_SATEExtratoRL.dpk | Sim | Não |
+| 8   | \\Pacotes\\Delphi\\ACBrSAT\\Extrato\\Fortes\\ | DCLACBr_SATEExtratoRL.dpk | Sim | Sim |
 
 ## Ponto de Atenção
 
